@@ -1,8 +1,7 @@
 ---
 layout: books
-title: My book reviews
+title: Books
+permalink: /books/
 ---
 
-This is the page where I'll share my thoughts on the books I read!
-
-Click on a title to see my review.
+Here I share my thoughts on the books I read!
