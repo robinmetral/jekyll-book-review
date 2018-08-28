@@ -7,14 +7,12 @@ layout: default
         <h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1>
         <p class="post-meta">{{ page.author }} ({{ page.published }}) · read on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></p>
     </header>
-    
+    <figure>
+        <img alt="Cover of {{ page.title }}" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg">
+        <figcaption>Book cover from the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>. No cover? Contribute to the project and <a href="https://openlibrary.org/books/add">add this book</a> ! (its ISBN is {{ page.isbn }})</figcaption>
+
     <div class="post-content e-content" itemprop="articleBody">
-        <img alt="Cover of {{ page.title }}" src="http://covers.openlibrary.org/b/isbn/{{ page.ref }}-L.jpg">
         {{ content }}
     </div>
-
-    <footer>
-        <p>The cover picture comes from the Open Library. No cover? Contribute to the project and <a href="https://openlibrary.org/books/add">add this book</a> ! (its ISBN is {{ page.ref }})</p>
-    </footer>
 
 </article>
