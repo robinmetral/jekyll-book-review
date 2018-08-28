@@ -6,7 +6,7 @@ layout: default
     <header class="post-header">
         <h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1>
         <p class="post-meta">{{ page.author }}, {{ page.published }}</p>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_to_long_string }}</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
     </header>
     
     <div class="post-content e-content" itemprop="articleBody">
@@ -15,11 +15,7 @@ layout: default
     </div>
 
     <footer>
-        {% if page.lang == "fr" %}
-        <p>L'image de couverture vient de la Open Library. Pas d'image ? Contribuez au projet et <a href="https://openlibrary.org/books/add">ajoutez ce livre</a> ! (son ISBN est {{ page.ref }})</p>
-        {% else %}
         <p>The cover image comes from the Open Library. No cover? Contribute to the project and <a href="https://openlibrary.org/books/add">add this book</a> ! (its ISBN is {{ page.ref }})</p>
-        {% endif %}
     </footer>
 
 </article>
