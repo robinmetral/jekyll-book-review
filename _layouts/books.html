@@ -1,0 +1,22 @@
+---
+# This is the books list layout
+# It is ready for the Minima theme default layout.
+# If your Jekyll theme structure differs, modify this layout
+
+layout: default
+---
+
+{% if page.title %}
+    <h1 class="page-heading">{{ page.title }}</h1>
+{% endif %}
+
+{{ content }}
+
+{% assign books=site.books %}
+{% if books.size > 0 %}
+    <ul>
+        {%- for book in books reversed -%}
+            <li>{% include date.html date=book.date %} : <a href="{{ book.url | absolute_url }}">{{ book.title }}, {{ book.author }}</a></li>
+        {%- endfor -%}
+    </ul>
+{%- endif -%}
