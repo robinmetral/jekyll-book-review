@@ -1,0 +1,27 @@
+---
+# This stylesheet needs front matter, do not remove
+---
+
+// Import Minima styles
+@import "minima";
+
+
+/*
+** CUSTOM STYLES
+*/
+
+// Increase space around the book cover
+.book-cover {
+    margin: 2rem 0;
+}
+
+// Center image
+.book-cover img {
+    margin: 0 auto;
+}
+
+// Position cover caption
+.book-cover figcaption {
+    text-align: center;
+    margin-top: 1rem;
+}

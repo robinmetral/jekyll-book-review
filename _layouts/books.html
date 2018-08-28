@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% if page.title %}
+    <h1 class="page-heading">{{ page.title }}</h1>
+{% endif %}
+
+{{ content }}
+
+{% assign books=site.books %}
+{% if books.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest reviews" }}</h2>
+    <ul class="post-list">
+        {% for book in books reversed %}
+            <li>
+                <span class="post-meta"><time datetime="{{ book.date | date_to_xmlschema }}">{{ book.date | date_to_long_string }}</time></span>
+                <h3>
+                    <a class="post-link" href="{{ book.url | relative_url }}">{{ book.title }} — {{ book.author }}</a>
+                </h3>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
