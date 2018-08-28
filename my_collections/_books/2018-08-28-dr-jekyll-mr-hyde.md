@@ -10,6 +10,6 @@ published: 1886
 
 ---
 
-"Great God! Can it be!"
+> It was on the moral side, and in my own person, that I learned to recognise the thorough and primitive duality of man; I saw that, of the two natures that contended in the field of my consciousness, even if I could rightly be said to be either, it was only because I was radically both; and from an early date... I had learned to dwell with pleasure, as a beloved daydream, on the thought of the separation of these elements.
 
-![Strange Case of Dr Jekyll and Mr Hyde poster](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg/1024px-Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg)
+--- Robert Louis Stevenson in *Strange Case of Dr Jekyll and Mr Hyde*
