@@ -20,7 +20,7 @@ layout: default
             <li>
                 <span class="post-meta"><time datetime="{{ book.date | date_to_xmlschema }}">{{ book.date | date_to_long_string }}</time></span>
                 <h3>
-                    <a class="post-link" href="{{ book.url | relative_url }}">{{ book.title }}, {{ book.author }}</a>
+                    <a class="post-link" href="{{ book.url | relative_url }}">{{ book.title }} — {{ book.author }}</a>
                 </h3>
             </li>
         {% endfor %}
