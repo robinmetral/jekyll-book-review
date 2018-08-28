@@ -8,7 +8,7 @@ layout: default
         <p class="post-meta">{{ page.author }} ({{ page.published }}) · read on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></p>
     </header>
     <figure>
-        <img alt="Cover of {{ page.title }}" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg">
+        <img alt="Cover of {{ page.title }}" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
         <figcaption>Book cover from the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>. No cover? Contribute to the project and <a href="https://openlibrary.org/books/add">add this book</a> ! (its ISBN is {{ page.isbn }})</figcaption>
 
     <div class="post-content e-content" itemprop="articleBody">
