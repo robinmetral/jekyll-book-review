@@ -2,7 +2,7 @@
 
 layout: review
 date: 2018-08-27 12:25:13 +0700
-image: "2018-08-27-harry-potter-and-the-philosopher-s-stone.jpg"
+cover: "2018-08-27-harry-potter-and-the-philosopher-s-stone.jpg"
 title: "Harry Potter and the Philosopher's Stone"
 author: J.K. Rowling
 year: 1997
