@@ -14,11 +14,15 @@ layout: default
 
 {% assign books=site.books %}
 {% if books.size > 0 %}
-    <ul>
-        {%- for book in books reversed -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Books" }}</h2>
+    <ul class="post-list">
+        {% for book in books reversed %}
             <li>
-                <time datetime="{{ book.date | date_to_xmlschema }}">{{ book.date | date_to_long_string }}</time>: <a href="{{ book.url | absolute_url }}">{{ book.title }}, {{ book.author }}</a>
+                <span class="post-meta"><time datetime="{{ book.date | date_to_xmlschema }}">{{ book.date | date_to_long_string }}</time></span>
+                <h3>
+                    <a class="post-link" href="{{ book.url | relative_url }}">{{ book.title }}, {{ book.author }}</a>
+                </h3>
             </li>
-        {%- endfor -%}
+        {% endfor %}
     </ul>
-{%- endif -%}
+{% endif %}
