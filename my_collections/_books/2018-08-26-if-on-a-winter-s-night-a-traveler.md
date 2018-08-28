@@ -1,11 +1,11 @@
 ---
 
 layout: review
-date: 2018-08-28 11:32:13 +0700
+date: 2018-08-26 11:32:13 +0700
 isbn: 9780156439619
 title: "If on a Winter's Night a Traveler"
 author: Italo Calvino
-published: 1979
+year: 1979
 
 ---
 
