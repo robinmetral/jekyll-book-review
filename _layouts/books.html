@@ -17,7 +17,7 @@ layout: default
     <ul>
         {%- for book in books reversed -%}
             <li>
-                <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_to_long_string }}</time>: <a href="{{ book.url | absolute_url }}">{{ book.title }}, {{ book.author }}</a>
+                <time datetime="{{ book.date | date_to_xmlschema }}">{{ book.date | date_to_long_string }}</time>: <a href="{{ book.url | absolute_url }}">{{ book.title }}, {{ book.author }}</a>
             </li>
         {%- endfor -%}
     </ul>
