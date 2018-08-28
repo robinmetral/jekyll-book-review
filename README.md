@@ -22,6 +22,7 @@ Okay, here's [the demo](https://robinmetral.github.io/jekyll-book-review/) (on a
 ![jekyll-book-review books list](https://raw.githubusercontent.com/robinmetral/jekyll-book-review/master/examples/minima-books-list.png)
 
 **Individual book review:**
+
 ![jekyll-book-review book review](https://raw.githubusercontent.com/robinmetral/jekyll-book-review/master/examples/minima-book-review.png)
 
 ## Installation
