@@ -5,4 +5,6 @@ permalink: /books/
 # list_title: My custom list title
 ---
 
-Here I share my thoughts about the books I read!
+This is where your book reviews will be listed - click on one to see the full review!
+
+*Pro tip: add a `list_title:` to this page's [front matter](https://jekyllrb.com/docs/frontmatter/) to override the default "Latest reviews"!*
