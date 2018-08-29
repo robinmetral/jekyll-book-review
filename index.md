@@ -9,7 +9,7 @@ layout: home
 
 You are now on a simplified [Minima](https://github.com/jekyll/minima/) site (Jekyll's default theme).
 
- - To see the book list that `jekyll-book-review` generates, head to the [Books]({{ site.baseurl }}/books/) page (you can also access it through the top nav).
+ - To see the books list that `jekyll-book-review` generates, head to the [Books]({{ site.baseurl }}/books/) page (you can also access it through the top nav).
  - To see an example review, check out [this review of one of my all-time favourite books]({{ site.baseurl }}/books/if-on-a-winter-s-night-a-traveler/).
  - To install `jekyll-book-review` on your site, see [the project's Github repository](https://github.com/robinmetral/jekyll-book-review).
 
