@@ -30,7 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Collctions
+# Collections
 collections:
     books:
         output: true
