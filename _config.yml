@@ -31,7 +31,6 @@ plugins:
   - jekyll-feed
 
 # Collctions
-collections_dir: my_collections
 collections:
     books:
         output: true
