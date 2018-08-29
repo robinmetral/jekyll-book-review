@@ -10,3 +10,5 @@ year: 1997
 ---
 
 I liked this book, I can see this J.K. Rowling getting somewhere someday!
+
+*Note to jekyll-book-review users: the cover on this review is self-hosted*
