@@ -95,8 +95,8 @@ Optionally, copy [`the book review template`](https://github.com/robinmetral/jek
  - Specify the book's author: `author: My Favourite Writer`
  - Specify the book's publication year: `year: 2018`
  - If you want to display the book's cover image, there are two options:
- - 1. If you want to **self-host your cover images**: place a cover image in `/assets/covers` and specify your image's file name in front matter with `cover: "2018-01-01-book-cover.jpg"`
- - 2. If you want to **use the Open Library Covers API to display your cover images**: enter either the book's **Open Library ID** (which you can find on any [Open Library book page](https://openlibrary.org/books/OL7243520M/Strange_case_of_Dr._Jekyll_and_Mr._Hyde.) with for example `olid: OL7243520M` or the book's **ISBN** with for example `isbn: 9780156439619` (warning: some ISBNs do not yet have a listing on the Open Library and won't return a cover image) 
+   1. If you want to **self-host your cover images**: place a cover image in `/assets/covers` and specify your image's file name in front matter with `cover: "2018-01-01-book-cover.jpg"`
+   2. If you want to **use the Open Library Covers API to display your cover images**: enter either the book's **Open Library ID** (which you can find on any [Open Library book page](https://openlibrary.org/books/OL7243520M/Strange_case_of_Dr._Jekyll_and_Mr._Hyde.) with for example `olid: OL7243520M` or the book's **ISBN** with for example `isbn: 9780156439619` (warning: some ISBNs do not yet have a listing on the Open Library and won't return a cover image) 
 
 *A few additional notes about book covers:*
  - We recommend using the Open Library API with an Open Library ID
